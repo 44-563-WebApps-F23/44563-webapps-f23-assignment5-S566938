@@ -14,6 +14,22 @@
 </head>
 <body>
 <h1>Visit cities with Vinod Ramavath</h1>
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="cities.html">A Few Cities</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link"><a class="nav-link " href="basic.html">Basic Page</a></li>
+
+        <li class="nav-link"><a class="nav-link" href="advanced.html">Advanced Page</a></li>
+      </ul>
+    </div>
+
+  </nav>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-sm-2">V</div>
@@ -24,7 +40,7 @@
         <div class="col-sm-2">R</div>
 </div>
 <div class="row">
-    <div class="col-md">Virgenia</div>
+    <div class="col-md">Virginia</div>
     <div class="col-md">Indiyana</div>
     <div class="col-md">Noida</div>
     <div class="col-md">Omaha</div>
@@ -32,13 +48,161 @@
     <div class="col-md">Raytown</div>
 </div>
 </div>
-<div>
     <p>
-        As i have observed while doing or as i know the "col-md" breaks which means the city breaks first than letters\
-        
+        As i have observed while doing or as i know the "col-md" breaks which means the city breaks first than letters<br>
+        "col-sm-2" is used to define column behavior for small-sized screens, typically smartphones and small tablets.<br>
+        "col-md" is used to define column behavior for medium-sized screens, which often includes larger tablets and desktops
         </p>
 
-</div>
-   
+        <br>
+      </div>
+         <div>
+          <img src="noida.jpg" class="img-fluid" alt="noida image" width="350" height="400">
+          <img src="dallas.jpeg" class="img-fluid" alt="dallas image"width="350" height="400">
+          <img src="omaha.jpg" class="img-fluid" alt="omaha image"width="400" height="400">
+      
+      </div>
+      
+      <div>
+       <img src="noida.jpg" class="img-thumbnail" alt="noida image" width="350" height="400">
+       <img src="dallas.jpeg" class="img-thumbnail" alt="dallas image"width="350" height="400">
+       <img src="omaha.jpg" class="img-thumbnail" alt="omaha image"width="400" height="400">
+      
+      </div>
+      <br>
+      <br>
+      <br>
+
+<table class="table table-hover table-striped table-sm table-border table-responsive caption-top">
+  <caption >Cities table</caption>
+    <thead>
+     
+        <tr class="table-dark">
+            <th scope="col">Letter</th>
+            <th scope="col">City</th>
+            <th scope="col">River</th>
+            <th scope="col">Tree</th>
+          </tr>
+    </thead>
+    <tbody>
+      <tr class="table table-primary table-striped">
+        <th scope="row">V</th>
+        <td>Virginia</td>
+        <td>Virginia river</td>
+        <td>Verbena Tree
+        </td>
+      </tr>
+      <tr class="table-secondary">
+        <th scope="row">I</th>
+        <td>Indiyana</td>
+        <td>Indiyana River of Indiyana of </td>
+        <td>Indiyana impatiens Tree</td>
+      </tr>
+      <tr class="table-danger">
+        <th scope="row">N</th>
+        <td>Noida</td>
+        <td>Noida Narmada</td>                         
+        <td>Noida Neam tree</td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row">O</th>
+        <td>Omaha</td>
+        <td>Omaha River omaha</td>
+        <td>Omaha Orange Tree</td>
+      </tr>
+      <tr class="table-info">
+        <th scope="row">D</th>
+        <td>Daytown</td>
+        <td>Daytown  river</td>
+        <td>Daytown  Triveni
+        </td>
+      </tr>
+      <tr class="table-light">
+        <th scope="row">R</th>
+        <td>Raytown</td>
+        <td>Raytown  river </td>
+        <td>Raytown Rhus Trees
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group" role="group" aria-label="First group">
+      <button type="button" class="btn btn-success">N</button>
+      <button type="button" class="btn btn-success">D</button>
+      <button type="button" class="btn btn-success">O</button>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Second group">
+      <button type="button" class="btn btn-warning">V</button>
+      <button type="button" class="btn btn-warning">I</button> 
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Third group">
+      <button type="button" class="btn btn-danger">R</button>
+    </div>
+  </div>
+  <br>
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+       Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+    </ul>
+  </div>
+  <br>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputCity1" class="form-label">City</label>
+      <input type="text" class="form-control" id="exampleInputCity1" placeholder="Enter your city">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="card-group">
+    <div class="card">
+     
+      <img src="omaha.jpg" alt="omaha image">
+      <div class="card-body">
+        <h2>omaha city </h2>
+        <p>Omaha (/ˈoʊməhɑː/ OH-mə-hah) is the largest city in the U.S. state of Nebraska and the county seat of Douglas County.[5] Omaha is in the Midwestern United States on the Missouri River, about 10 mi (15 km) north of the mouth of the Platte River. The nation's 40th-most populous city, Omaha's 2020 census population was 486,051.</p>
+             <a href="https://en.wikipedia.org/wiki/omaha" class="btn btn-primary">omaha wikipedia</a>
+      </div>
+     
+    
+    </div>
+    <div class="card">
+      
+      <img src="dallas.jpeg" alt="dallas image">
+      <h2>dallas city </h2>
+      <div class="card-body">
+        <p>Dallas (/ˈdæləs/) is a city in Texas and the most populous in the Dallas–Fort Worth metroplex, the fourth-largest metropolitan area in the United States at 7.5 million people.[11] It is the most populous city in and seat of Dallas County with portions extending into Collin, Denton, Kaufman, and Rockwall counties. With a 2020 census population of 1,304,379, it is the ninth-most populous city in the U.S. and the third-most populous city in Texas after Houston and San Antonio.[12][13] Located in the North Texas region, the city of Dallas is the main core of the largest metropolitan area in the Southern United States and the largest inland metropolitan area in the U.S. that lacks any navigable link to the sea.</p>
+           <a href="https://en.wikipedia.org/wiki/dallas" class="btn btn-primary">dallas wikipedia</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="noida.jpg" alt="noida image">
+      <h2>nodia city </h2>
+      <div class="card-body">
+        <p>Noida, short for New Okhla Industrial Development Authority, is a city[5] located in Gautam Buddha Nagar district of the Indian state of Uttar Pradesh. Noida is a satellite city of Delhi and is a part of the National Capital Region. As per provisional reports of Census of India, the population of Noida in 2011 was 642,381.[6] The city is managed by New Okhla Industrial Development Authority (NOIDA).[7] The district's administrative headquarters are in the nearby city of Greater Noida.</p>
+        <a href="https://en.wikipedia.org/wiki/Noida" class="btn btn-primary">noida wikipedia</a>
+      </div>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
